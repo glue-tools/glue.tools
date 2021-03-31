@@ -104,7 +104,7 @@
 
 [[redirects]]
   from = "https://glue.tools/get_win8key/windows/*"
-  to = "https://github.com/christian-korneck/get_win8key/blob/master/get_win8key.exe"
+  to = "https://github.com/christian-korneck/get_win8key/raw/master/get_win8key.exe"
   status = 301
   force = true
 
