@@ -99,15 +99,14 @@
 # ------------------------------------------------------
 
 # os shortcuts/aliases
-
 [[redirects]]
-  from = "https:/glue.tools/:tool/win/*"
+  from = "https://glue.tools/:tool/win/*"
   to = "https://glue.tools/:tool/windows/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https:/glue.tools/:tool/lin/*"
+  from = "https://glue.tools/:tool/elf/*"
   to = "https://glue.tools/:tool/linux/:splat"
   status = 301
   force = true
