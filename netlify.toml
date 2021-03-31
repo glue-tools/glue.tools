@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "https://www.glue.tools/*"
+  to = "https://glue.tools/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://glue.tools/*"
+  to = "https://glue.tools/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://www.glue.tools/*"
+  to = "https://glue.tools/:splat"
+  status = 301
+  force = true
+

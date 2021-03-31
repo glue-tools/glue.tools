@@ -1,0 +1,42 @@
+body {
+    /*font-family: Liberation Sans, Arial, sans-serif; */
+    /* font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif; */
+    font-family: Georgia,Cambria, "Times New Roman", Times ,serif;
+    background-color: #ffffff;
+    line-height: 1.4;
+  }
+  main {
+    max-width: 50ch;
+    padding: 2ch;
+    margin: auto;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    color: rgba(0,0,0,.84);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+  }
+  header {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: .5rem;
+  }
+  a {
+    color: #000000;
+    text-decoration: underline;
+    outline: 0;
+  }
+  a:visited {
+    color: #000000;
+  }
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+}
