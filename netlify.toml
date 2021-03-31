@@ -55,20 +55,20 @@
 
 [[redirects]]
   from = "https://glue.tools/:tool/windows/64"
-  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_amd64"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_amd64.exe"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://glue.tools/:tool/windows/32"
-  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_386"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_386.exe"
   status = 301
   force = true
 
 # default for windows: amd64 (so it runs in 64-bit only nanoserver)
 [[redirects]]
   from = "https://glue.tools/:tool/windows"
-  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_amd64"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_amd64.exe"
   status = 301
   force = true
 
