@@ -40,3 +40,12 @@ img.logo {
   margin-right: auto;
   max-width: 25%;
 }
+
+code.codebox {
+  border: solid 1px darkgrey;
+  display: block;
+  max-width: 80ch;
+  overflow: hidden;
+  overflow-x:scroll;
+  background-color:moccasin;
+}
