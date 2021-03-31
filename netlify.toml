@@ -98,6 +98,18 @@
 
 # ------------------------------------------------------
 
+# tools from download urls OTHER than github.com/glue-tools
+
+# get_win8key
+
+[[redirects]]
+  from = "https://glue.tools/get_win8key/windows/*"
+  to = "https://github.com/christian-korneck/get_win8key/blob/master/get_win8key.exe"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
 # tool project page redirect - overwrites
 
 [[redirects]]
