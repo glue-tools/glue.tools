@@ -1,4 +1,10 @@
 [[redirects]]
+  from = "http://www.glue.tools/:tool/linux/64"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://www.glue.tools/*"
   to = "https://glue.tools/:splat"
   status = 301
@@ -14,9 +20,4 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "http://www.glue.tools/:tool/linux/64"
-  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_linux_amd64"
-  status = 301
-  force = true
 
