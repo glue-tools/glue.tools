@@ -3,6 +3,7 @@
 # tools from download urls OTHER than github.com/glue-tools:
 # get_win8key
 
+# this tool is windows only
 [[redirects]]
   from = "https://glue.tools/get_win8key/windows/*"
   to = "https://github.com/christian-korneck/get_win8key/raw/master/get_win8key.exe"
