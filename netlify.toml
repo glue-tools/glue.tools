@@ -98,6 +98,44 @@
 
 # ------------------------------------------------------
 
+# tool project page redirect - overwrites
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm"
+  to = "https://github.com/christian-korneck/docker-pushrm"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore"
+  to = "https://github.com/christian-korneck/getignore"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive"
+  to = "https://github.com/christian-korneck/captive"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/get_win8key"
+  to = "https://github.com/christian-korneck/get_win8key"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
+# tool project page redirect - github.com/glue-tools/*
+
+[[redirects]]
+  from = "https://glue.tools/:tool"
+  to = "https://github.com/glue-tools/:tool"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
 # os shortcuts/aliases
 [[redirects]]
   from = "https://glue.tools/:tool/win/*"
