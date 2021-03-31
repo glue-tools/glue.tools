@@ -1,12 +1,109 @@
 # ------------------------------------------------------
 
-# tools from download urls OTHER than github.com/glue-tools
-
+# tools from download urls OTHER than github.com/glue-tools:
 # get_win8key
 
 [[redirects]]
   from = "https://glue.tools/get_win8key/windows/*"
   to = "https://github.com/christian-korneck/get_win8key/raw/master/get_win8key.exe"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
+# tools from download urls OTHER than github.com/glue-tools:
+# getignore
+
+[[redirects]]
+  from = "https://glue.tools/getignore/linux/64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/linux/amd64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/linux/32"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/linux/386"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignorelinux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/linux/arm64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_arm64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/linux/arm32"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_arm"
+  status = 301
+  force = true
+
+# default for Linux: amd64 (typical cloud vm)
+[[redirects]]
+  from = "https://glue.tools/getignore/linux"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/mac/64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_darwin_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/mac/arm64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_darwin_arm64"
+  status = 301
+  force = true
+
+# default for Mac: universal2 (it just works)
+[[redirects]]
+  from = "https://glue.tools/getignore/mac"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_darwin_universal2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/windows/64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/windows/amd64"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/windows/32"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_windows_386.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/getignore/windows/386"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_windows_386.exe"
+  status = 301
+  force = true
+
+# default for windows: amd64 (so it runs in 64-bit only nanoserver)
+[[redirects]]
+  from = "https://glue.tools/getignore/windows"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_windows_amd64.exe"
   status = 301
   force = true
 
