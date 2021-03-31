@@ -110,6 +110,202 @@
 
 # ------------------------------------------------------
 
+# tools from download urls OTHER than github.com/glue-tools:
+# captive
+
+[[redirects]]
+  from = "https://glue.tools/captive/linux/64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/linux/amd64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/linux/32"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/linux/386"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captivelinux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/linux/arm64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_arm64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/linux/arm32"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_arm"
+  status = 301
+  force = true
+
+# default for Linux: amd64 (typical cloud vm)
+[[redirects]]
+  from = "https://glue.tools/captive/linux"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/mac/64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_darwin_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/mac/arm64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_darwin_arm64"
+  status = 301
+  force = true
+
+# default for Mac: universal2 (it just works)
+[[redirects]]
+  from = "https://glue.tools/captive/mac"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_darwin_universal2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/windows/64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/windows/amd64"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/windows/32"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_windows_386.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/captive/windows/386"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_windows_386.exe"
+  status = 301
+  force = true
+
+# default for windows: amd64 (so it runs in 64-bit only nanoserver)
+[[redirects]]
+  from = "https://glue.tools/captive/windows"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_windows_amd64.exe"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
+# tools from download urls OTHER than github.com/glue-tools:
+# docker-pushrm
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux/64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux/amd64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux/32"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux/386"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrmlinux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux/arm64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_arm64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux/arm32"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_arm"
+  status = 301
+  force = true
+
+# default for Linux: amd64 (typical cloud vm)
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/linux"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/mac/64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_darwin_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/mac/arm64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_darwin_arm64"
+  status = 301
+  force = true
+
+# default for Mac: universal2 (it just works)
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/mac"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_darwin_universal2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/windows/64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/windows/amd64"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/windows/32"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_windows_386.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/windows/386"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_windows_386.exe"
+  status = 301
+  force = true
+
+# default for windows: amd64 (so it runs in 64-bit only nanoserver)
+[[redirects]]
+  from = "https://glue.tools/docker-pushrm/windows"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_windows_amd64.exe"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
 # tool download redirects to github releases
 # for github.com/glue-tools
 
