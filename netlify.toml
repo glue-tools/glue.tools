@@ -132,7 +132,7 @@
   from = "https://glue.tools/:tool"
   to = "https://github.com/glue-tools/:tool"
   status = 301
-  force = true
+  force = false
 
 # ------------------------------------------------------
 
