@@ -10,7 +10,19 @@
   force = true
 
 [[redirects]]
+  from = "https://glue.tools/:tool/linux/amd64"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://glue.tools/:tool/linux/32"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_linux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/:tool/linux/386"
   to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_linux_386"
   status = 301
   force = true
@@ -60,7 +72,19 @@
   force = true
 
 [[redirects]]
+  from = "https://glue.tools/:tool/windows/amd64"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://glue.tools/:tool/windows/32"
+  to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_386.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/:tool/windows/386"
   to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_386.exe"
   status = 301
   force = true
@@ -69,6 +93,34 @@
 [[redirects]]
   from = "https://glue.tools/:tool/windows"
   to = "https://github.com/glue-tools/:tool/releases/latest/download/:tool_windows_amd64.exe"
+  status = 301
+  force = true
+
+# ------------------------------------------------------
+
+# os shortcuts/aliases
+
+[[redirects]]
+  from = "https://www.glue.tools/:tool/win/*"
+  to = "https://glue.tools/:tool/windows/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.glue.tools/:tool/lin/*"
+  to = "https://glue.tools/:tool/linux/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.glue.tools/:tool/darwin/*"
+  to = "https://glue.tools/:tool/mac/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.glue.tools/:tool/macos/*"
+  to = "https://glue.tools/:tool/mac/:splat"
   status = 301
   force = true
 
