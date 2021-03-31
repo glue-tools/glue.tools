@@ -101,25 +101,25 @@
 # os shortcuts/aliases
 
 [[redirects]]
-  from = "https://www.glue.tools/:tool/win/*"
+  from = "https:/glue.tools/:tool/win/*"
   to = "https://glue.tools/:tool/windows/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://www.glue.tools/:tool/lin/*"
+  from = "https:/glue.tools/:tool/lin/*"
   to = "https://glue.tools/:tool/linux/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://www.glue.tools/:tool/darwin/*"
+  from = "https://glue.tools/:tool/darwin/*"
   to = "https://glue.tools/:tool/mac/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://www.glue.tools/:tool/macos/*"
+  from = "https://glue.tools/:tool/macos/*"
   to = "https://glue.tools/:tool/mac/:splat"
   status = 301
   force = true
