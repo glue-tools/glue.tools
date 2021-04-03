@@ -35,7 +35,7 @@
 
 [[redirects]]
   from = "https://glue.tools/getignore/linux/386"
-  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignorelinux_386"
+  to = "https://github.com/christian-korneck/getignore/releases/latest/download/getignore_linux_386"
   status = 301
   force = true
 
@@ -133,7 +133,7 @@
 
 [[redirects]]
   from = "https://glue.tools/captive/linux/386"
-  to = "https://github.com/christian-korneck/captive/releases/latest/download/captivelinux_386"
+  to = "https://github.com/christian-korneck/captive/releases/latest/download/captive_linux_386"
   status = 301
   force = true
 
@@ -231,7 +231,7 @@
 
 [[redirects]]
   from = "https://glue.tools/docker-pushrm/linux/386"
-  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrmlinux_386"
+  to = "https://github.com/christian-korneck/docker-pushrm/releases/latest/download/docker-pushrm_linux_386"
   status = 301
   force = true
 
