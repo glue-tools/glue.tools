@@ -9,6 +9,104 @@
   to = "https://github.com/christian-korneck/get_win8key/raw/master/get_win8key.exe"
   status = 301
   force = true
+# ------------------------------------------------------
+
+# tools from s3:
+# namesgen
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux/64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux/amd64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux/32"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux/386"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_386"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux/arm64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_arm64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux/arm32"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_arm"
+  status = 301
+  force = true
+
+# default for Linux: amd64 (typical cloud vm)
+[[redirects]]
+  from = "https://glue.tools/namesgen/linux"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_linux_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/mac/64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_darwin_amd64"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/mac/arm64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_darwin_arm64"
+  status = 301
+  force = true
+
+# default for Mac: universal2 (it just works)
+[[redirects]]
+  from = "https://glue.tools/namesgen/mac"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_darwin_universal2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/windows/64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/windows/amd64"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_windows_amd64.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/windows/32"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_windows_386.exe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://glue.tools/namesgen/windows/386"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_windows_386.exe"
+  status = 301
+  force = true
+
+# default for windows: amd64 (so it runs in 64-bit only nanoserver)
+[[redirects]]
+  from = "https://glue.tools/namesgen/windows"
+  to = "https://gluetools.s3.us-west-000.backblazeb2.com/namesgen_windows_amd64.exe"
+  status = 301
+  force = true
+
 
 # ------------------------------------------------------
 
