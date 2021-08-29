@@ -11,16 +11,6 @@
   force = true
 # ------------------------------------------------------
 
-# golang packages:
-
-[[redirects]]
-  from = "https://glue.tools/vprint"
-  to = "https://github.com/glue-tools/vprint"
-  status = 301
-  force = true
-
-# ------------------------------------------------------
-
 # tools from s3:
 # namesgen
 
